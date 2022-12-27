@@ -1,0 +1,10 @@
+*/*
+!config/*
+!scripts/*
+!resources/*
+
+!.gitattributes
+!.gitignore
+!Changelog.txt
+!LICENSE
+!README.md
