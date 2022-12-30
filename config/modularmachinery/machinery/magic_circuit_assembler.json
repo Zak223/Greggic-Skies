@@ -1,0 +1,90 @@
+{
+    "registryname": "magic_circuit_assembler",
+    "localizedname": "Magic Circuit Assembler",
+    "parts": [
+        {
+        "x": -2,
+        "y": -1,
+        "z": -1,
+        "elements": "plascrete"
+        },
+        {
+        "x": -2,
+        "y": -1,
+        "z": 0,
+        "elements": "plascrete"
+        },
+        {
+        "x": -2,
+        "y": -1,
+        "z": 1,
+        "elements": "plascrete"
+        },
+        {
+        "x": -2,
+        "y": -1,
+        "z": 2,
+        "elements": "plascrete"
+        },
+        {
+        "x": -1,
+        "y": -1,
+        "z": -2,
+        "elements": "plascrete"
+        },
+        {  
+        "x": 0,
+        "y": -1,
+        "z": -2,
+        "elements": "plascrete"
+        },
+        {
+        "x": 1,
+        "y": -1,
+        "z": -2,
+        "elements": "plascrete"
+        },
+        {
+        "x": 2,
+        "y": -1,
+        "z": -2,
+        "elements": "plascrete"
+        },
+        {
+        "x": -1,
+        "y": -1,
+        "z": 2,
+        "elements": "plascrete"
+        },
+        {
+        "x": 0,
+        "y": -1,
+        "z": 2,
+        "elements": "plascrete"
+        },
+        {
+        "x": 1,
+        "y": -1,
+        "z": 2,
+        "elements": "plascrete"
+        },
+        {
+        "x": 2,
+        "y": -1,
+        "z": 2,
+        "elements": "plascrete"
+        },
+        {
+        "x": 1,
+        "y": -1,
+        "z": -2,
+        "elements": "plascrete"
+        },
+        {
+        "x": 0,
+        "y": -1,
+        "z": -2,
+        "elements": "plascrete"
+        }        
+    ]
+}

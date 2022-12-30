@@ -22,5 +22,8 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
+    ],
+    "plascrete": [
+        "gregtech:5799:0"
     ]
 }
