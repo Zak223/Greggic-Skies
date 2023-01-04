@@ -19,7 +19,17 @@
         "y": 72,
         "autoIO": false
       }
-    ]
+    ],
+    "fuel_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 53,
+      "y": 80,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    }
   },
   "properties": {
     "rotationState": "ALL",
