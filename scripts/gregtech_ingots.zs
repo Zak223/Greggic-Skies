@@ -8,4 +8,4 @@ import mods.gregtech.recipe.RecipeMap;
 // Remove Fireclay
 recipes.remove(<gregtech:meta_item_1:351>);
 // Add Fireclay
-mods.thermalexpansion.Compactor.addPressRecipe(<gregtech:meta_item_1:351>, <metaitem:dustFireclay>, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<gregtech:meta_item_1:351>, <gregtech:meta_dust:2525>, 150);
