@@ -1619,7 +1619,8 @@
     "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
-        31
+        31,
+        34
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2109,7 +2110,7 @@
       "questID:3": 33,
       "preRequisites:11": [
         30,
-        34
+        35
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2182,7 +2183,61 @@
     },
     "34:10": {
       "questID:3": 34,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        42,
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 401,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Circuit Board",
+          "desc:8": "Wrap some wires around your board to get a circuit board!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 401,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        36
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2204,30 +2259,550 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Bugs",
-          "desc:8": "Due to sulfur not spawning in the nether, you can have a stack on me. Since this wont last long, I suggest finding out how Sulfur Chunks are made."
+          "name:8": "Sulfur",
+          "desc:8": "Throw your impure dust into a cauldron full of water to clean it."
         }
       },
       "tasks:9": {
         "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
+          "consume:1": 0,
+          "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_dust",
-              "Count:3": 64,
+              "Count:3": 1,
               "Damage:2": 103,
               "OreDict:8": ""
             }
-          }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
-      }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        37
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_dust_impure",
+            "Count:3": 1,
+            "Damage:2": 103,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Road to sulfur",
+          "desc:8": "Hammer your sulfur twice to get the impure version"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_crushed",
+              "Count:3": 1,
+              "Damage:2": 103,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust_impure",
+              "Count:3": 1,
+              "Damage:2": 103,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ore_nether_chunk",
+            "Count:3": 1,
+            "Damage:2": 103,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Nether Sulfur Chunk",
+          "desc:8": "Sieve your Nether Gravel to get Sulfur Chunks!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ore_nether_chunk",
+              "Count:3": 1,
+              "Damage:2": 103,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "excompressum:compressed_block",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Nether Ores",
+          "desc:8": "Nether ores are able to be made through sifting Nether Gravel"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:netherrack",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:block_netherrack_crushed",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "excompressum:compressed_block",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_plate",
+            "Count:3": 1,
+            "Damage:2": 1617,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wooden Planks",
+          "desc:8": "Get some planks for your circuit board!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_plate",
+              "Count:3": 3,
+              "Damage:2": 1617,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        43,
+        44
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:wire_single",
+            "Count:3": 1,
+            "Damage:2": 25,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Copper Wires",
+          "desc:8": "Cut your plates into wires!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:wire_single",
+              "Count:3": 8,
+              "Damage:2": 25,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "41:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 438,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Sticky Resin",
+          "desc:8": "Dropped from trees!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 6,
+              "Damage:2": 438,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "42:10": {
+      "questID:3": 42,
+      "preRequisites:11": [
+        41,
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 3,
+            "Damage:2": 381,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Coated Circuit Board",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 3,
+              "Damage:2": 381,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "43:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_tool",
+            "Count:3": 1,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "neutronium"
+              }
+            },
+            "Damage:2": 13,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wire Cutters",
+          "desc:8": "I would go for steel on these if you have it available"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "Damage:2": 13,
+              "OreDict:8": "craftingToolWireCutter"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "44:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:material",
+            "Count:3": 1,
+            "Damage:2": 320,
+            "OreDict:8": "plateCopper"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Copper Plates",
+          "desc:8": "Throw some copper in the compactor!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 8,
+              "Damage:2": 320,
+              "OreDict:8": "plateCopper"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -2487,8 +3062,8 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": -120,
+          "x:3": -156,
+          "y:3": -60,
           "id:3": 22,
           "sizeY:3": 24
         },
@@ -2521,11 +3096,81 @@
           "sizeY:3": 24
         },
         "5:10": {
-          "sizeX:3": 18,
-          "x:3": -92,
-          "y:3": -116,
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -12,
           "id:3": 34,
-          "sizeY:3": 16
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -168,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -168,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -216,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -264,
+          "id:3": 38,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 60,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -12,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 60,
+          "id:3": 41,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 36,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -12,
+          "id:3": 43,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -60,
+          "id:3": 44,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
