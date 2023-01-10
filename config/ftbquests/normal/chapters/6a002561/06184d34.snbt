@@ -1,0 +1,20 @@
+{
+	title: "Rubber Sheets",
+	icon: "gregtech:meta_plate 1 1068",
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"befdedff"
+	],
+	tasks: [{
+		uid: "7ea4f9a8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 3 1068"
+		}],
+		count: 3L
+	}]
+}

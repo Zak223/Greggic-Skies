@@ -1,0 +1,21 @@
+{
+	title: "Copper Wires",
+	icon: "gregtech:wire_single 1 25",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"Cut your plates into wires!"
+	],
+	dependencies: [
+		"b2e8e9a9",
+		"b8c78cbc"
+	],
+	tasks: [{
+		uid: "4a49b6bf",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 8 25"
+		}],
+		count: 8L
+	}]
+}

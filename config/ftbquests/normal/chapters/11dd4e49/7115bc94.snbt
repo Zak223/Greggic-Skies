@@ -1,0 +1,35 @@
+{
+	title: "Bronze",
+	icon: "gregtech:meta_ingot 1 260",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"You wont need much bronze off the start, but the other alloys that follow soon will be very important"
+	],
+	dependencies: [
+		"be8fdc18"
+	],
+	tasks: [{
+		uid: "1f0f68b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f4202ad0",
+		type: "item",
+		item: "harvestcraft:peanutbuttercookiesitem"
+	}]
+}

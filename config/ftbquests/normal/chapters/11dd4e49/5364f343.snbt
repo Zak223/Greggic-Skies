@@ -1,0 +1,17 @@
+{
+	title: "Making Lava",
+	icon: "minecraft:lava_bucket",
+	x: -1.5d,
+	y: 4.5d,
+	text: [
+		"Follow the questline for the easy and simple solution to making lava"
+	],
+	dependencies: [
+		"ba372592"
+	],
+	rewards: [{
+		uid: "bcd817da",
+		type: "item",
+		item: "minecraft:bucket"
+	}]
+}

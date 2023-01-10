@@ -1,0 +1,52 @@
+{
+	title: "Pulveriser",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			Level: 0b,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			]
+		},
+		Damage: 1s
+	},
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"Grind down that coal!"
+	],
+	dependencies: [
+		"1c654ccf",
+		"066e035d"
+	],
+	tasks: [{
+		uid: "96520cb4",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				Level: 0b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 1s
+		}]
+	}]
+}

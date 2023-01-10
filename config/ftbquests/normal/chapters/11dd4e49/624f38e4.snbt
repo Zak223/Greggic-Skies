@@ -1,0 +1,31 @@
+{
+	title: "Lava",
+	icon: "minecraft:lava_bucket",
+	x: -3.5d,
+	y: 6.5d,
+	text: [
+		"Finally Lava. This will be used very soon to get you to the nether, better start stocking up now"
+	],
+	dependencies: [
+		"a8a098e5"
+	],
+	tasks: [{
+		uid: "9b315f84",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "fb1e8123",
+		type: "item",
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 11s
+		}
+	}]
+}

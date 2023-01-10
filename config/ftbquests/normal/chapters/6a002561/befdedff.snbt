@@ -1,0 +1,47 @@
+{
+	title: "Rubber",
+	icon: "gregtech:meta_ingot 1 1068",
+	x: -2.0d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"70af09ac",
+		"2c0a99b1"
+	],
+	tasks: [{
+		uid: "d52991ad",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 9 1002"
+		}],
+		count: 9L
+	},
+	{
+		uid: "d912ffcf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustSulfur",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSulfur"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5afa14ba",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 3 1068"
+		}],
+		count: 3L
+	}]
+}

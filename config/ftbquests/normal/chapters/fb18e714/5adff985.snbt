@@ -1,0 +1,47 @@
+{
+	title: "Bring me Thanos!!!",
+	icon: "exnihilocreatio:hammer_wood",
+	x: 0.5d,
+	y: 4.5d,
+	text: [
+		"Hammers can give you new resources"
+	],
+	dependencies: [
+		"5a44a5c0"
+	],
+	tasks: [{
+		uid: "288dd77b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_wood"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "d4e9d73a",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	},
+	{
+		uid: "7da3fb0c",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	},
+	{
+		uid: "ea1a19da",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "a42d4df2",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 16
+	}]
+}

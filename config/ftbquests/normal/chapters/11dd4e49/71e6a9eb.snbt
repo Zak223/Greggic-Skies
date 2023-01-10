@@ -1,0 +1,29 @@
+{
+	title: "Early Age of Power",
+	icon: {
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0b,
+			Facing: 1b,
+			Energy: 0,
+			Level: 0b
+		}
+	},
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"While sieving is still needed (unless you want to invest in some auto sifters) there are lots of potentials with ",
+		"",
+		"§bTo use the Steam Dynamo simply add water and any fuel",
+		"",
+		"§cTip: Make a couple of these, as you will be using them for a little bit"
+	],
+	dependencies: [
+		"b9f82063"
+	],
+	rewards: [{
+		uid: "ac5f54bc",
+		type: "choice",
+		table: 0
+	}]
+}

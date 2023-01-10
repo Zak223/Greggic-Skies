@@ -1,0 +1,35 @@
+{
+	title: "Nether Ores",
+	icon: "excompressum:compressed_block 1 6",
+	x: 0.0d,
+	y: -10.5d,
+	text: [
+		"Nether ores are able to be made through sifting Nether Gravel"
+	],
+	dependencies: [
+		"5adff985"
+	],
+	tasks: [{
+		uid: "f680431d",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack 9"
+		}],
+		count: 9L
+	},
+	{
+		uid: "4ba27ef0",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_netherrack_crushed 9"
+		}],
+		count: 9L
+	},
+	{
+		uid: "76f848bf",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_block 1 6"
+		}]
+	}]
+}

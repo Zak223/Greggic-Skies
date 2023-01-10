@@ -1,0 +1,20 @@
+{
+	title: "Compressed Fireclay",
+	icon: "gregtech:meta_item_1 1 351",
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"Almost time for Firebrick"
+	],
+	dependencies: [
+		"5d6f10df",
+		"5b4ef8b9"
+	],
+	tasks: [{
+		uid: "3f21b32c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 351"
+		}]
+	}]
+}

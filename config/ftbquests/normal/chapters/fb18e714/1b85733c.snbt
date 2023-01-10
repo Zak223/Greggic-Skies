@@ -1,0 +1,26 @@
+{
+	title: "Sieve time",
+	icon: "exnihilocreatio:block_sieve",
+	x: 0.5d,
+	y: 6.5d,
+	text: [
+		"Sieving might give you some valuble resources"
+	],
+	dependencies: [
+		"5adff985"
+	],
+	tasks: [{
+		uid: "5903b2f8",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	},
+	{
+		uid: "64b7f42d",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}]
+}

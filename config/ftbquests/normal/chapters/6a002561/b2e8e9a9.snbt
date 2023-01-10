@@ -1,0 +1,38 @@
+{
+	title: "Wire Cutters",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		},
+		Damage: 13s
+	},
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"I would go for steel on these if you have it available"
+	],
+	dependencies: [
+		"251f8d0a"
+	],
+	tasks: [{
+		uid: "fef0fee2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWireCutter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Steam",
+	icon: {
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0b,
+			Facing: 1b,
+			Energy: 0,
+			Level: 0b
+		}
+	},
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"Steam Power is the simplest power generation for early game, it may not produce much power but its good to get you started"
+	],
+	dependencies: [
+		"b9f82063"
+	]
+}

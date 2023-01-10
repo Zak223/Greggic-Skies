@@ -1,0 +1,37 @@
+{
+	title: "Dust Sifter",
+	icon: "exnihilocreatio:dustsift",
+	x: -1.5d,
+	y: 6.5d,
+	text: [
+		"Your first multiblock! Although the other ones will not be as easy as this, it still shows how to use it!"
+	],
+	dependencies: [
+		"1b85733c",
+		"71e6a9eb"
+	],
+	tasks: [{
+		uid: "2013e703",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:dustsift"
+		}]
+	},
+	{
+		uid: "32aebaf4",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			Count: 2b,
+			tag: {
+				material: "oak"
+			}
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a91a38f0",
+		type: "choice",
+		table: 1
+	}]
+}

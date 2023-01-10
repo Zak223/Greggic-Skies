@@ -1,0 +1,28 @@
+{
+	title: "The start of LV",
+	icon: "gregtech:meta_item_1 1 621",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"I would craft as much as you can for your first batch"
+	],
+	dependencies: [
+		"c7192051",
+		"bb7f6fe5",
+		"f94908a5",
+		"717a7f77"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "407a013e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}],
+	rewards: [{
+		uid: "74502651",
+		type: "item",
+		item: "gregtech:machine 1 575"
+	}]
+}

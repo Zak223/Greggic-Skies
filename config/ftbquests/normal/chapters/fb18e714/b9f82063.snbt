@@ -1,0 +1,36 @@
+{
+	title: "Power at last",
+	icon: {
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0b,
+			Facing: 1b,
+			Energy: 0,
+			Level: 0b
+		}
+	},
+	x: 1.5d,
+	y: 10.0d,
+	text: [
+		"§l§lFinally Power",
+		"§r",
+		"Don't worry about energy conduits yet. those are coming soon"
+	],
+	dependencies: [
+		"1c654ccf",
+		"066e035d"
+	],
+	tasks: [{
+		uid: "e7241d87",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

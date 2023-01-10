@@ -1,0 +1,51 @@
+{
+	title: "Compactor",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			Level: 0b,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			]
+		},
+		Damage: 5s
+	},
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"The compactor is used to make basic plates, gears, and coins. It can also compress some useful things later on."
+	],
+	dependencies: [
+		"7115bc94"
+	],
+	tasks: [{
+		uid: "b7ba1cae",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				Level: 0b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 5s
+		}]
+	}]
+}

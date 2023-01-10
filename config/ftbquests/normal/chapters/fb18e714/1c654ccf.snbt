@@ -1,0 +1,48 @@
+{
+	title: "Basic Items - Flint Mesh",
+	icon: "thermalfoundation:material 1 130",
+	x: 2.5d,
+	y: 8.5d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"c5e45d2a"
+	],
+	tasks: [{
+		uid: "b7571569",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSilver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSilver"
+				}
+			}
+		}]
+	},
+	{
+		uid: "eec2b1a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotCopper"
+				}
+			}
+		}]
+	}]
+}

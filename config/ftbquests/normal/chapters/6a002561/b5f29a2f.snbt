@@ -1,0 +1,37 @@
+{
+	title: "Sawdust and Paper",
+	icon: "thermalfoundation:material 1 800",
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"Cutting up wood then putting it back together"
+	],
+	dependencies: [
+		"1fbe3450"
+	],
+	tasks: [{
+		uid: "cefcaef2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ef7a24a2",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}]
+}

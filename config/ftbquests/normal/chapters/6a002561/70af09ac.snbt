@@ -1,0 +1,19 @@
+{
+	title: "Sulfur",
+	icon: "gregtech:meta_dust 1 103",
+	x: -2.0d,
+	y: -6.5d,
+	text: [
+		"Throw your impure dust into a cauldron full of water to clean it."
+	],
+	dependencies: [
+		"90e806c3"
+	],
+	tasks: [{
+		uid: "954f5cf4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 103"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Primitive Blast Furnace",
+	icon: "gregtech:machine 1 1000",
+	x: 4.5d,
+	y: 8.5d,
+	text: [
+		"The PBF will be your entrance into steel and GregTech!",
+		"Use JEI to find out how to make this multiblock"
+	],
+	dependencies: [
+		"251f8d0a",
+		"220e6105"
+	],
+	tasks: [{
+		uid: "293bf829",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Copper Plates",
+	icon: "thermalfoundation:material 1 320",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"Throw some copper in the compactor!"
+	],
+	dependencies: [
+		"5b4ef8b9"
+	],
+	tasks: [{
+		uid: "33e2c9c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plateCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plateCopper"
+				}
+			}
+		}]
+	}]
+}

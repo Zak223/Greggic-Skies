@@ -1,0 +1,10 @@
+{
+	title: "Early Power",
+	icon: "thermalfoundation:material 1 513",
+	description: [
+		""
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

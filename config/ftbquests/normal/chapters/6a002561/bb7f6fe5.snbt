@@ -1,0 +1,21 @@
+{
+	title: "Red Alloy Cable",
+	icon: "gregtech:cable_single 1 2517",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"06184d34",
+		"943bfae0"
+	],
+	tasks: [{
+		uid: "c2a95f75",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 3 2517"
+		}],
+		count: 3L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Flint Mesh",
+	icon: "exnihilocreatio:item_mesh 1 2",
+	x: 2.5d,
+	y: 6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1b85733c"
+	],
+	tasks: [{
+		uid: "8f5b99d4",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6e32dd15",
+		type: "item",
+		item: "minecraft:apple"
+	}]
+}

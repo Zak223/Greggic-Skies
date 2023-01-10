@@ -1,0 +1,22 @@
+{
+	title: "LV",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Time for GregTech. LV will be the only voltage that will only need Gregtech. This is to have you focus on the mod that will appear most in your playthrough"
+	],
+	tasks: [{
+		uid: "57988af5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	},
+	{
+		uid: "983fc82c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 1"
+		}]
+	}]
+}

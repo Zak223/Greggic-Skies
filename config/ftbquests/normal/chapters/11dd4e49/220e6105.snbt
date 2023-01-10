@@ -1,0 +1,27 @@
+{
+	title: "Firebricks",
+	icon: "gregtech:metal_casing 1 1",
+	x: 4.5d,
+	y: 6.5d,
+	text: [
+		"Make the controller and form the multiblock!"
+	],
+	dependencies: [
+		"77fa03af"
+	],
+	tasks: [{
+		uid: "cfecc8d0",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 33 1"
+		}],
+		count: 33L
+	},
+	{
+		uid: "c56bb306",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	}]
+}

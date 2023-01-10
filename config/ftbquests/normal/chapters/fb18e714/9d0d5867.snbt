@@ -1,0 +1,26 @@
+{
+	title: "Gregtech in the sky",
+	icon: "minecraft:dirt",
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"But lets not get into that yet...",
+		" I'll start you off with a nice relaxing skyblock spawn"
+	],
+	tasks: [{
+		uid: "3df567e5",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6e779ea9",
+		type: "item",
+		item: "minecraft:sapling",
+		count: 5
+	},
+	{
+		uid: "bd8a84eb",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 16
+	}]
+}

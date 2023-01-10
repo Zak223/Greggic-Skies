@@ -1,0 +1,30 @@
+{
+	title: "Coal Dust",
+	icon: "thermalfoundation:material 1 768",
+	x: 2.5d,
+	y: 4.5d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"5001e314"
+	],
+	tasks: [{
+		uid: "b682bb21",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustCoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustCoal"
+				}
+			}
+		}]
+	}]
+}

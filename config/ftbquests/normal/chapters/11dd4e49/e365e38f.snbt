@@ -1,0 +1,20 @@
+{
+	title: "Water",
+	icon: "excompressum:wooden_crucible",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"Put leaves or saplings in the crucible to get water"
+	],
+	dependencies: [
+		"71e6a9eb"
+	],
+	tasks: [{
+		uid: "1a961539",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Steel Rods",
+	icon: "gregtech:meta_stick 1 324",
+	x: 2.5d,
+	y: -4.5d,
+	text: [
+		"Use your file!"
+	],
+	dependencies: [
+		"1ac1c667"
+	],
+	tasks: [{
+		uid: "3349cb91",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_stick 2 324"
+		}],
+		count: 2L
+	}]
+}

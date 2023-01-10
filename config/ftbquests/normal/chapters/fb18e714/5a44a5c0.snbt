@@ -1,0 +1,40 @@
+{
+	title: "Crooking and worms",
+	icon: "exnihilocreatio:item_material 1 2",
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"If you crook those leaves then you can get silkworm. Use it on the leaves for an infesting surprise."
+	],
+	dependencies: [
+		"9d0d5867"
+	],
+	tasks: [{
+		uid: "94630b79",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "e8453185",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	},
+	{
+		uid: "5d4df859",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}]
+	}],
+	rewards: [{
+		uid: "2c8dfa5b",
+		type: "item",
+		item: "minecraft:cookie",
+		count: 8
+	}]
+}

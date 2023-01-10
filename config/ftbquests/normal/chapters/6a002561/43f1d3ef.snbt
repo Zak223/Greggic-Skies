@@ -1,0 +1,20 @@
+{
+	title: "Wooden Planks",
+	icon: "gregtech:meta_plate 1 1617",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"Get some planks for your circuit board!"
+	],
+	dependencies: [
+		"5b4ef8b9"
+	],
+	tasks: [{
+		uid: "57436bb5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 3 1617"
+		}],
+		count: 3L
+	}]
+}

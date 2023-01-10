@@ -1,0 +1,19 @@
+{
+	title: "Crucible",
+	icon: "exnihilocreatio:block_crucible",
+	x: -3.5d,
+	y: 8.5d,
+	text: [
+		"To be able to use this, throw it in a furnace"
+	],
+	dependencies: [
+		"73bdd20b"
+	],
+	tasks: [{
+		uid: "8db3b71f",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible"
+		}]
+	}]
+}

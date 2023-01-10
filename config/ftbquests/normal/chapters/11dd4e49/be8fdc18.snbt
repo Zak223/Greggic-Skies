@@ -1,0 +1,57 @@
+{
+	title: "Induction Smelter",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			Level: 0b,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			]
+		},
+		Damage: 3s
+	},
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"Used to make alloys, for now you want to make §9BRONZE §rwith it"
+	],
+	dependencies: [
+		"71e6a9eb"
+	],
+	tasks: [{
+		uid: "5002ea35",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				Level: 0b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "a91e8894",
+		type: "item",
+		item: "gregtech:meta_ingot 1 25",
+		count: 16
+	}]
+}

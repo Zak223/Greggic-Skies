@@ -1,0 +1,18 @@
+{
+	title: "Cheap Wires",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Wires are expensive right now, make this machine to get 2 wires out of one ingot!"
+	],
+	dependencies: [
+		"f3fe4d2c"
+	],
+	tasks: [{
+		uid: "05f75696",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}]
+}

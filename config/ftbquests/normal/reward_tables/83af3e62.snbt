@@ -1,0 +1,8 @@
+{
+	title: "Early Age of Power",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:cooked_beef",
+		count: 16
+	}]
+}

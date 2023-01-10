@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"The first machine you should get! It allows you to polarize metals!"
+	],
+	dependencies: [
+		"f3fe4d2c"
+	],
+	tasks: [{
+		uid: "4bd2ffbe",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 545"
+		}]
+	}]
+}

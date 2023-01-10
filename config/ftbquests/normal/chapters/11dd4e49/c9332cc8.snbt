@@ -1,0 +1,38 @@
+{
+	title: "Crushing things manually!",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		},
+		Damage: 12s
+	},
+	x: 1.5d,
+	y: 6.0d,
+	text: [
+		"This fancy tool is needed to turn clay and brick into their dusts"
+	],
+	dependencies: [
+		"c5e45d2a"
+	],
+	tasks: [{
+		uid: "e4ceade3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolMortar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolMortar"
+				}
+			}
+		}]
+	}]
+}

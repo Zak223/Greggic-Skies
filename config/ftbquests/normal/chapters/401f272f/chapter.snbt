@@ -1,0 +1,28 @@
+{
+	title: "Energy Generation",
+	icon: {
+		id: "thermalexpansion:cell",
+		tag: {
+			Recv: 1000,
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			Level: 0b,
+			SideCache: [B;
+				2b,
+				1b,
+				1b,
+				1b,
+				1b,
+				1b
+			],
+			Send: 1000
+		}
+	},
+	description: [
+		""
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

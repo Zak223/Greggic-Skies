@@ -1,0 +1,37 @@
+{
+	title: "Firebrick",
+	icon: "gregtech:meta_dust 1 2525",
+	x: 2.5d,
+	y: 4.5d,
+	text: [
+		"Almost time for your first GregTech multiblock... You just have to process this further"
+	],
+	dependencies: [
+		"ba372592",
+		"c9332cc8"
+	],
+	tasks: [{
+		uid: "31f4ce12",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 66 2063"
+		}],
+		count: 66L
+	},
+	{
+		uid: "a48cea79",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 66 2524"
+		}],
+		count: 66L
+	},
+	{
+		uid: "f9da17a6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2525"
+		}],
+		count: 132L
+	}]
+}

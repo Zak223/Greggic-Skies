@@ -1,0 +1,18 @@
+{
+	title: "Where to go from here",
+	icon: {
+		id: "botania:cosmetic",
+		tag: {},
+		Damage: 31s
+	},
+	x: 6.5d,
+	y: 10.5d,
+	text: [
+		"§lCongrats on making it past the early age. ",
+		"",
+		"§rBefore you go any further, you should consider getting mass amounts of Iron and Coal, Steel is very important in LV."
+	],
+	dependencies: [
+		"616ff976"
+	]
+}

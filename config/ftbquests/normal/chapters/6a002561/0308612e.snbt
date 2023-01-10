@@ -1,0 +1,19 @@
+{
+	title: "Glass Tubes",
+	icon: "gregtech:meta_item_1 1 517",
+	x: 4.5d,
+	y: -2.5d,
+	text: [
+		"Cut up your glass!"
+	],
+	dependencies: [
+		"1fbe3450"
+	],
+	tasks: [{
+		uid: "f5665e87",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 517"
+		}]
+	}]
+}

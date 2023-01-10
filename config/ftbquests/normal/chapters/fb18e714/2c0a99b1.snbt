@@ -1,0 +1,22 @@
+{
+	title: "Rubber",
+	icon: "gregtech:meta_item_1 1 438",
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"You will want to plant as much of these as you can as lots of rubber will be needed for LV and beyond."
+	],
+	dependencies: [
+		"9d0d5867"
+	],
+	tasks: [{
+		uid: "e157565e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5d012cc1",
+		type: "item",
+		item: "gregtech:rubber_sapling",
+		count: 3
+	}]
+}

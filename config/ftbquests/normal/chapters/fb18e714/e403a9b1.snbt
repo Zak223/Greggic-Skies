@@ -1,0 +1,59 @@
+{
+	title: "Crooking is hard work",
+	icon: "minecraft:furnace",
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"You must have noticed how hard crooking is on your hunger. If only those silkworms could be cooked",
+		"",
+		"§3§bHint: Shift right click on grass to get pebbles"
+	],
+	dependencies: [
+		"5a44a5c0",
+		"5adff985"
+	],
+	tasks: [{
+		uid: "87220a21",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 4 21"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1a600561",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	},
+	{
+		uid: "fc30e1ef",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel 15"
+		}],
+		count: 15L
+	},
+	{
+		uid: "bbc05543",
+		type: "item",
+		items: [{
+			item: "minecraft:flint 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "79550543",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "e7902eb7",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Vacuum Tubes",
+	icon: "gregtech:meta_item_1 1 516",
+	x: 2.5d,
+	y: -2.5d,
+	text: [
+		"These tubes suck"
+	],
+	dependencies: [
+		"de81cd81",
+		"0308612e",
+		"e0d4aeda"
+	],
+	tasks: [{
+		uid: "98b13e51",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}]
+	}]
+}

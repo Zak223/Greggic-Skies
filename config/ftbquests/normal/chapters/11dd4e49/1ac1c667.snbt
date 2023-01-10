@@ -1,0 +1,20 @@
+{
+	title: "Steel!",
+	icon: "gregtech:meta_ingot 1 324",
+	x: 4.5d,
+	y: 10.5d,
+	text: [
+		"Add Iron and Coal into the PBF to get steel!"
+	],
+	dependencies: [
+		"616ff976"
+	],
+	tasks: [{
+		uid: "0ff7d94a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 16 324"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Road to sulfur",
+	icon: "gregtech:meta_dust_impure 1 103",
+	x: 0.0d,
+	y: -6.5d,
+	text: [
+		"Hammer your sulfur twice to get the impure version"
+	],
+	dependencies: [
+		"f30954df"
+	],
+	tasks: [{
+		uid: "4d4fddf3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed 1 103"
+		}]
+	},
+	{
+		uid: "f42f9613",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_impure 1 103"
+		}]
+	}]
+}

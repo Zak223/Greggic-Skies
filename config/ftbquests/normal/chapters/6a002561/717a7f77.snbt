@@ -1,0 +1,23 @@
+{
+	title: "Resistors",
+	icon: "gregtech:meta_item_1 1 519",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"Hard to resist these"
+	],
+	dependencies: [
+		"b151f142",
+		"9606963a",
+		"b5f29a2f",
+		"e0d4aeda"
+	],
+	tasks: [{
+		uid: "0414ad59",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 2 519"
+		}],
+		count: 2L
+	}]
+}

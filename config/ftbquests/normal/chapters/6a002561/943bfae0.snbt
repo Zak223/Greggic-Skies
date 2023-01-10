@@ -1,0 +1,30 @@
+{
+	title: "Red Alloy",
+	icon: "gregtech:meta_ingot 1 2517",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"Needed for lossless LV cables"
+	],
+	dependencies: [
+		"be8fdc18"
+	],
+	tasks: [{
+		uid: "e3f8b118",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotRedAlloy",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotRedAlloy"
+				}
+			}
+		}]
+	}]
+}

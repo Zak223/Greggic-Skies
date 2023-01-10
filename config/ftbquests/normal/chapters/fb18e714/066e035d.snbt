@@ -1,0 +1,48 @@
+{
+	title: "Basic Items - String Mesh",
+	icon: "minecraft:iron_ingot",
+	x: 0.5d,
+	y: 8.5d,
+	text: [
+		"Get some basic ores to start into power!"
+	],
+	dependencies: [
+		"1b85733c"
+	],
+	tasks: [{
+		uid: "d0583234",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotIron"
+				}
+			}
+		}]
+	},
+	{
+		uid: "35665441",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustRedstone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustRedstone"
+				}
+			}
+		}]
+	}]
+}

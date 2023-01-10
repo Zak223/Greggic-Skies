@@ -1,0 +1,9 @@
+{
+	title: "Motor",
+	icon: "gregtech:meta_item_1 1 127",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"The Motor is the most commonly used component. These should always be made in bulk."
+	]
+}

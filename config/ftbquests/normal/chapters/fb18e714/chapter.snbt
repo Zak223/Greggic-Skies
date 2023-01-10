@@ -1,0 +1,10 @@
+{
+	title: "Sieve Age",
+	icon: "exnihilocreatio:block_sieve",
+	description: [
+		""
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

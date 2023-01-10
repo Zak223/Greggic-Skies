@@ -1,5 +1,6 @@
 import mods.thermalexpansion.Compactor;
 import mods.thermalexpansion.InductionSmelter;
+import mods.thermalexpansion.Sawmill;
 import mods.gregtech.material.Material;
 import mods.gregtech.recipe.RecipeMap;
 
@@ -22,3 +23,6 @@ mods.thermalexpansion.Compactor.addPressRecipe(<gregtech:meta_ingot:1068> * 2, <
 
 // Wood Planks
 mods.thermalexpansion.Compactor.addPressRecipe(<gregtech:meta_plate:1617>, <minecraft:planks>, 150);
+
+// Glass Tube
+mods.thermalexpansion.Sawmill.addRecipe(<gregtech:meta_item_1:517>, <minecraft:glass> * 5, 500);

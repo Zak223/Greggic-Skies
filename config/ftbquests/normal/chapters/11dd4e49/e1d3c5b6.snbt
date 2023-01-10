@@ -1,0 +1,34 @@
+{
+	title: "Preparations",
+	icon: "minecraft:dye 1 15",
+	x: -1.5d,
+	y: 6.5d,
+	text: [
+		"Bone Meal can be made by sifting compressed dust through a string mesh!"
+	],
+	dependencies: [
+		"5364f343"
+	],
+	tasks: [{
+		uid: "95016da6",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 7 15"
+		}],
+		count: 7L
+	},
+	{
+		uid: "1ef89581",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball 7"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "fa4996fe",
+		type: "item",
+		item: "harvestcraft:beefwellingtonitem",
+		count: 3
+	}]
+}

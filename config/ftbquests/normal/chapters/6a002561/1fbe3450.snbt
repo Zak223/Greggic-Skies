@@ -1,0 +1,54 @@
+{
+	title: "Sawmill",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			Level: 0b,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			]
+		},
+		Damage: 2s
+	},
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"Cut up your wood and glass! ",
+		"",
+		"§bTip: For resistors and vacuum tubes, make as much as possible!"
+	],
+	dependencies: [
+		"1c654ccf",
+		"066e035d"
+	],
+	tasks: [{
+		uid: "064c28e0",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				Level: 0b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 2s
+		}]
+	}]
+}

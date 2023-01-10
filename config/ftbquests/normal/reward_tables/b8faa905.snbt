@@ -1,0 +1,12 @@
+{
+	title: "Dust Sifter",
+	loot_size: 1,
+	rewards: [{
+		item: "excompressum:compressed_block",
+		count: 5
+	},
+	{
+		item: "minecraft:cake",
+		count: 5
+	}]
+}

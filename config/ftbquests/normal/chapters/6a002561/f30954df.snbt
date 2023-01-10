@@ -1,0 +1,19 @@
+{
+	title: "Nether Sulfur Chunk",
+	icon: "gregtech:meta_ore_nether_chunk 1 103",
+	x: 0.0d,
+	y: -8.5d,
+	text: [
+		"Sieve your Nether Gravel to get Sulfur Chunks!"
+	],
+	dependencies: [
+		"b5acd80f"
+	],
+	tasks: [{
+		uid: "93ab3dab",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ore_nether_chunk 1 103"
+		}]
+	}]
+}

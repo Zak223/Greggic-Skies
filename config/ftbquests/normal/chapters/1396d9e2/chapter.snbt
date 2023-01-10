@@ -1,0 +1,10 @@
+{
+	title: "Gregtech - LV",
+	icon: "gregtech:machine 1 986",
+	description: [
+		""
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

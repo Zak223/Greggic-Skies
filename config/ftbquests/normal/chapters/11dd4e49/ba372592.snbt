@@ -1,0 +1,28 @@
+{
+	title: "Bricks and Clay",
+	icon: "minecraft:brick_block",
+	x: 0.5d,
+	y: 4.5d,
+	text: [
+		"You will need bricks and clay for the next multiblock, and to unlock GregTech"
+	],
+	dependencies: [
+		"b9bb2b4c"
+	],
+	tasks: [{
+		uid: "5f3e84f0",
+		type: "item",
+		items: [{
+			item: "minecraft:clay 66"
+		}],
+		count: 66L
+	},
+	{
+		uid: "3ee7b8a5",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block 66"
+		}],
+		count: 66L
+	}]
+}
