@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: -8.5d,
+	shape: "gear",
+	text: [
+		"1. Use the wires rated for the voltage of your energy converter, if you are in LV, use the LV converter",
+		"2. Use the right amperage wires, if you put 16 amps onto a 1 amp wire, things wont go well."
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "c840afd6",
+		type: "checkmark",
+		title: "How to not blow up machines"
+	}]
+}

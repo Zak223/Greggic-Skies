@@ -1,11 +1,17 @@
 {
+	title: "LV parts",
+	icon: "gregtech:meta_item_1 1 187",
 	x: 0.0d,
 	y: -2.0d,
+	text: [
+		"Parts that are used in your machines"
+	],
+	dependencies: [
+		"f3fe4d2c",
+		"589354ac"
+	],
 	tasks: [{
-		uid: "cfde37e1",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 333"
-		}]
+		uid: "2acecc95",
+		type: "checkmark"
 	}]
 }

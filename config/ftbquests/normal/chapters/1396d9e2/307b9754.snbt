@@ -5,5 +5,8 @@
 	y: -4.0d,
 	text: [
 		"The Motor is the most commonly used component. These should always be made in bulk."
+	],
+	dependencies: [
+		"f4ef22f6"
 	]
 }

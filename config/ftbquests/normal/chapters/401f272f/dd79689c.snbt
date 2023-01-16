@@ -1,6 +1,9 @@
 {
 	x: 2.0d,
 	y: 0.5d,
+	text: [
+		"Convert RF to EU! You need to use a 1 amp cable or higher for this converter"
+	],
 	tasks: [{
 		uid: "1b837945",
 		type: "item",
