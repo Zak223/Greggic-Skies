@@ -4,5 +4,107 @@
 	rewards: [{
 		item: "minecraft:cooked_beef",
 		count: 16
+	},
+	{
+		item: "harvestcraft:melonjuiceitem"
+	},
+	{
+		item: "harvestcraft:applejuiceitem"
+	},
+	{
+		item: "harvestcraft:carrotjuiceitem"
+	},
+	{
+		item: "harvestcraft:strawberryjuiceitem"
+	},
+	{
+		item: "harvestcraft:blueberryjuiceitem"
+	},
+	{
+		item: "harvestcraft:hamburgeritem"
+	},
+	{
+		item: "harvestcraft:fishandchipsitem"
+	},
+	{
+		item: "harvestcraft:fishsandwichitem"
+	},
+	{
+		item: "harvestcraft:fishsticksitem"
+	},
+	{
+		item: "avaritia:ultimate_stew"
+	},
+	{
+		item: "avaritia:cosmic_meatballs"
+	},
+	{
+		item: "harvestcraft:cornedbeefbreakfastitem"
+	},
+	{
+		item: "harvestcraft:deluxechickencurryitem"
+	},
+	{
+		item: "harvestcraft:gourmetmuttonburgeritem"
+	},
+	{
+		item: "harvestcraft:baconcheeseburgeritem"
+	},
+	{
+		item: "harvestcraft:surfandturfitem"
+	},
+	{
+		item: "harvestcraft:lemondrizzlecakeitem"
+	},
+	{
+		item: "harvestcraft:kimchiitem"
+	},
+	{
+		item: "harvestcraft:friedonionsitem"
+	},
+	{
+		item: "harvestcraft:mincepieitem"
+	},
+	{
+		item: "harvestcraft:strawberrysodaitem"
+	},
+	{
+		item: "harvestcraft:cherrysodaitem"
+	},
+	{
+		item: "harvestcraft:raisincookiesitem"
+	},
+	{
+		item: "harvestcraft:popcornitem"
+	},
+	{
+		item: "harvestcraft:netherwingsitem"
+	},
+	{
+		item: "harvestcraft:potatochipsitem"
+	},
+	{
+		item: "harvestcraft:kiwijellysandwichitem"
+	},
+	{
+		item: "harvestcraft:limejellysandwichitem"
+	},
+	{
+		item: "harvestcraft:mangojellysandwichitem"
+	},
+	{
+		item: "harvestcraft:fishtacoitem"
+	},
+	{
+		item: "harvestcraft:cornbreaditem"
+	},
+	{
+		item: "harvestcraft:cornonthecobitem"
+	},
+	{
+		item: "harvestcraft:chocolateicecreamitem"
+	},
+	{
+		item: "harvestcraft:chickenparmasanitem"
 	}]
 }

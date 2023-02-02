@@ -1,0 +1,22 @@
+{
+	x: 9.5d,
+	y: -6.5d,
+	text: [
+		"To get aluminium dust, process aluminium chunks!"
+	],
+	dependencies: [
+		"0a4da4c6"
+	],
+	tasks: [{
+		uid: "7be3f6d6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "53219501",
+		type: "item",
+		item: "gregtech:meta_ingot 1 2"
+	}]
+}

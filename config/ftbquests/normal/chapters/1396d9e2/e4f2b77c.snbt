@@ -1,0 +1,13 @@
+{
+	icon: "gregtech:meta_item_1 1 621",
+	x: 7.5d,
+	y: 4.0d,
+	text: [
+		"You should start batch crafting LV circuits"
+	],
+	tasks: [{
+		uid: "ca917162",
+		type: "checkmark",
+		title: "More circuits!"
+	}]
+}

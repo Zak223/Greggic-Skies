@@ -1,0 +1,18 @@
+{
+	x: 7.5d,
+	y: 2.0d,
+	text: [
+		"Macerate wood to get wood pulp"
+	],
+	dependencies: [
+		"98ac65a5",
+		"2b092986"
+	],
+	tasks: [{
+		uid: "2b730859",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 382"
+		}]
+	}]
+}

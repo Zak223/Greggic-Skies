@@ -1,0 +1,14 @@
+{
+	title: "Gallium Arsenide",
+	icon: "gregtech:meta_dust 1 351",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"Gallium Arsenide is used to make diodes for MV circuits",
+		"You might need a few machines first though"
+	],
+	tasks: [{
+		uid: "78868724",
+		type: "checkmark"
+	}]
+}

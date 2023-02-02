@@ -1,0 +1,27 @@
+{
+	title: "Glue",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"Put sticky resin in a centrifuge to make glue!",
+		"A better way to make rubber pulp too"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f3fe4d2c"
+	],
+	tasks: [{
+		uid: "73346c35",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 185"
+		}]
+	},
+	{
+		uid: "5b1b40c2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 438"
+		}]
+	}]
+}

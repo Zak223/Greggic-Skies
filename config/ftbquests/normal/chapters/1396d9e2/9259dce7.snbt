@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	text: [
+		"Macerate your chunks to double your production!"
+	],
+	dependencies: [
+		"2e4af8f1"
+	],
+	tasks: [{
+		uid: "ead1b5ca",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 65"
+		}]
+	}]
+}

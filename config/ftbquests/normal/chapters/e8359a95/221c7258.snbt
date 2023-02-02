@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"The begining of Alpha"
+	],
+	dependencies: [
+		"72159a1e"
+	],
+	tasks: [{
+		uid: "ea034580",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 987"
+		}]
+	},
+	{
+		uid: "6ad350e3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 2"
+		}]
+	}]
+}

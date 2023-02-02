@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Useful for automating sieves!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f3fe4d2c"
+	],
+	tasks: [{
+		uid: "d10d7acc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 665"
+		}]
+	}]
+}

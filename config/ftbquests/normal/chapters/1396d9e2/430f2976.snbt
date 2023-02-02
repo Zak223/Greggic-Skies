@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		"Crush down your cobble!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0992c5de"
+	],
+	tasks: [{
+		uid: "0d93bb59",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 410"
+		}]
+	}]
+}

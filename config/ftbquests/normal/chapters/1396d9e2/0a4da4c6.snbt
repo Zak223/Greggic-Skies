@@ -1,0 +1,78 @@
+{
+	icon: "gregtech:machine 1 1001",
+	x: 9.5d,
+	y: -8.5d,
+	shape: "gear",
+	text: [
+		"An upgraded blast furnace!",
+		"The two LV hatches are needed to make aluminium",
+		"Check JEI to see how its built",
+		"(Input and Output hatches are not needed, but busses are)"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "f5bf34c9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1001"
+		}]
+	},
+	{
+		uid: "86ad1a5b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1211"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c46d39cf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1151"
+		}]
+	},
+	{
+		uid: "f996ef4c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1166"
+		}]
+	},
+	{
+		uid: "6779ee45",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e03ef240",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}],
+		count: 11L
+	},
+	{
+		uid: "41f4324e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "e0fb54fb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	}],
+	rewards: [{
+		uid: "230487d3",
+		type: "item",
+		item: "gregtech:meta_dust 1 2",
+		count: 16
+	}]
+}

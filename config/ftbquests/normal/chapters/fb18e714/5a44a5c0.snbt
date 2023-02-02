@@ -4,7 +4,7 @@
 	x: 0.5d,
 	y: 2.5d,
 	text: [
-		"If you crook those leaves then you can get silkworm. Use it on the leaves for an infesting surprise."
+		"If you crook those leaves on a tree then you can get silkworm. Use it on the leaves for an infesting surprise."
 	],
 	dependencies: [
 		"9d0d5867"

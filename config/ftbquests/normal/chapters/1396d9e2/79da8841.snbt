@@ -1,0 +1,18 @@
+{
+	title: "Bending Stuff",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Makes efficient plates!"
+	],
+	dependencies: [
+		"f3fe4d2c"
+	],
+	tasks: [{
+		uid: "43ac4bd7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 140"
+		}]
+	}]
+}
