@@ -4,7 +4,7 @@
 	y: -4.0d,
 	text: [
 		"The end goal will be to get the Infinite GT Energy Unit Emitter",
-		"A recipe for this will most likely be added at beta, unless people start reaching higher voltages"
+		"This will be able to be crafted at beta, unless people start reaching higher voltages"
 	],
 	tasks: [{
 		uid: "bc5e9bcd",
